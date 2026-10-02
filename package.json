@@ -1,0 +1,27 @@
+{
+  "name": "leadboy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Foundit lead-entry browser automation agent",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "recon": "tsx src/index.ts recon",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "exceljs": "^4.4.0",
+    "playwright": "^1.55.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
